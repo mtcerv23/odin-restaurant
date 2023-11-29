@@ -1,6 +1,6 @@
 function home() {
-    const currentContent = document.querySelector('content');
-    // if (currentContent.innerHTML) currentContent.innerHTML = '';
+    const currentContent = document.getElementById('content');
+    currentContent.innerHTML = '';
 
     // Home Content
     const homeContent = document.createElement("div");
