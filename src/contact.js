@@ -4,7 +4,7 @@ export default function contact() {
 
     const contactInfo = document.createElement('div');
     contactInfo.classList.add('contact');
-    contactInfo.textContent = "harro";
+    contactInfo.textContent = "do NOT try to contact me.";
 
     content.appendChild(contactInfo);
 }

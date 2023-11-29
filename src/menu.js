@@ -2,9 +2,9 @@ export default function menu() {
     const content = document.getElementById('content');
     content.innerHTML = '';
 
-    const giantText = document.createElement('div');
-    giantText.classList.add('giant');
-    giantText.textContent = "THIS TEXT IS FUCKING GINORMOUS";
+    const menu = document.createElement('div');
+    menu.classList.add('giant');
+    menu.textContent = "burger: $20. fries: $50. drink: nope.";
 
-    content.appendChild(giantText);
+    content.appendChild(menu);
 }
