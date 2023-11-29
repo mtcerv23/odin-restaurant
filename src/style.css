@@ -14,6 +14,17 @@ body {
     justify-content: space-between;
 }
 
+#homeTab:hover,
+#menuTab:hover,
+#contactTab:hover {
+    cursor: pointer;
+}
+
+.giant {
+    font-size: 20rem;
+}
+
+
 .content {
     flex: 1;
     margin: 0 auto;
